@@ -78,6 +78,7 @@ h4{
     position: relative;
 }
 .video iframe{
+    padding-top: 0.5rem;
     height: 100%;
     left: 0;
     position: absolute;
