@@ -70,6 +70,21 @@ h4{
     padding-top: 0.5rem;
     width: 80%;
 }
+
+.video {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 45%;
+    position: relative;
+}
+.video iframe{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 .footer{
     padding-bottom: 0.5rem;
 }
