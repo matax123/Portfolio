@@ -9,26 +9,32 @@ h1{
     font-size: 3rem;
 }
 h2{
-    font-size: 2.5rem;
-}
-h3{
-    font-size: 2rem;
-}
-h4{
-    font-size: 1.5rem;
+    font-size: 2.2rem;
 }
 /** Globales **/
 
 .contenedor{
     margin: 0 0 0 0; 
-    padding-top: 2rem;
+    padding-top: 2vh;
 }
 
 .contenedor2{
     margin: 0 0 0 0; 
     height: 100vh;
+    min-height: 33rem;
+    min-width: 24rem;
 }
 
+.barra{
+    padding-left: 0%;
+    height: 10%;
+    min-height: 2rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0 10% 0 80%;
+}
 
 .columna{
     flex-direction: column;
