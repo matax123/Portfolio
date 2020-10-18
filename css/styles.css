@@ -16,6 +16,7 @@ h2{
 .contenedor{
     margin: 0 0 0 0; 
     padding-top: 2vh;
+    min-width: 24rem;
 }
 
 .contenedor2{
@@ -74,7 +75,12 @@ h2{
 
 .ventana{
     padding-top: 0.5rem;
-    width: 80%;
+    width: 95%;
+}
+
+.ventana-pequeña{
+    padding-top: 0.5rem;
+    width: 60%;
 }
 
 .video {
