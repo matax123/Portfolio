@@ -86,16 +86,16 @@ h2{
 .video {
     height: 0;
     overflow: hidden;
-    padding-bottom: 45%;
+    padding-bottom: 45%; /*43.75% es lo común */
     position: relative;
+    margin-top: 0.5rem;
 }
 .video iframe{
-    padding-top: 0.5rem;
-    height: 99%;
+    height: 100%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 99%;
+    width: 100%;
 }
 
 .footer{
