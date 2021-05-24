@@ -1,104 +1,87 @@
 /** Globales **/
-body{
-    font-family: 'Lato', sans-serif;
-    font-size: 1.6rem;
-    background-color: white;
-    margin: 0 0 0 0;
+
+@font-face {
+    font-family: 'open_24_display_stregular';
+    src: url('../fonts/lcd-webfont.woff2') format('woff2'),
+         url('../fonts/lcd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-h1{
+
+body {
+    font-family: 'open_24_display_stregular';
+    font-size: 1.6rem;
+    color: green;
+    background-color: black;
+}
+
+h1 {
     font-size: 3rem;
 }
-h2{
+
+h2 {
     font-size: 2.2rem;
 }
+
 /** Globales **/
 
-.contenedor{
-    margin: 0 0 0 0; 
-    padding-top: 2vh;
-    min-width: 24rem;
+.contenedor {
+    min-height: 100vh;
+    min-width: 400px;
+    border-bottom: 5px double green;
+    padding: 15px 0 15px 0;
 }
 
-.contenedor2{
-    margin: 0 0 0 0; 
-    height: 100vh;
-    min-height: 33rem;
-    min-width: 24rem;
-}
-
-.barra{
-    padding-left: 0%;
-    height: 10%;
-    min-height: 2rem;
-    flex-direction: row;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin: 0 10% 0 80%;
-}
-
-.columna{
+.columna {
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
 }
 
-.mi-imagen{
-    height: 36vh;
-    min-height: 9rem;
-    max-height: 18rem;
-    border-radius: 100vh;
-}
-
-.centro{
+.centro {
     flex-direction: column;
     display: flex;
     align-items: center;
-    margin: 0 10% 0 10%; /* valores: arriba, derecha, abajo, izquierda */
+    margin: 0 10% 0 10%;
+    /* valores: arriba derecha abajo izquierda */
 }
 
-.fila{
+.fila {
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.imagen{
+.imagen {
     height: 5rem;
     border-radius: 0.5rem;
 }
 
-.parrafo{
-    margin: 0 0 0 0; 
-}
-
-.ventana{
+.ventana {
     padding-top: 0.5rem;
     width: 95%;
 }
 
-.ventana-pequeña{
+.ventana-pequeña {
     padding-top: 0.5rem;
     width: 60%;
 }
 
 .video {
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 45%; /*43.75% es lo común */
-    position: relative;
-    margin-top: 0.5rem;
+    height: 43.75vw;
 }
+
 .video iframe{
     height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
     width: 100%;
 }
 
-.footer{
+.footer {
     padding-bottom: 0.5rem;
 }
 
+.link{
+    text-decoration: none;
+    color: blue;
+}
