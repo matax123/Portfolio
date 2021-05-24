@@ -70,6 +70,7 @@ h2 {
 
 .video {
     height: 43.75vw;
+    padding: 0px;
 }
 
 .video iframe{
