@@ -59,13 +59,12 @@ h2 {
 }
 
 .ventana {
-    padding-top: 0.5rem;
-    width: 95%;
+    margin-top: 5px;
+    width: 90vw;
 }
 
-.ventana-pequeña {
-    padding-top: 0.5rem;
-    width: 60%;
+.ventana:hover{
+    opacity: 0.8;
 }
 
 .video {
